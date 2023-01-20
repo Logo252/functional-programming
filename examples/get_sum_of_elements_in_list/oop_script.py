@@ -1,5 +1,6 @@
 class ListManager(object):
     def __init__(self, _list):
+        self.__sum = None
         self.__list = _list
 
     def add_values(self):
