@@ -40,3 +40,16 @@ it is much easier to write complex systems using OOP.
 - Not all functions can be pure
 - FP has a learning curve
 - FP can be inefficient
+
+## Advantages of OOP
+- OOP is easier to understand
+- OOP is easier to maintain
+- OOP is easier to extend
+- OOP is easier to debug
+- OOP is easier to reuse
+- OOP is easier to test
+
+## Disadvantages of OOP
+- OOP is slower
+- OOP is more difficult to learn
+- OOP is more difficult to design
