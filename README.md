@@ -1,3 +1,11 @@
+# Project setup:
+
+## Create venv in current directory:
+`python3 -m venv ./venv`
+
+## Activate venv:
+`source venv/bin/activate`
+
 # functional-programming
 
 ## Functional vs Procedural Programming vs OOP
@@ -36,12 +44,13 @@ it is much easier to write complex systems using OOP.
 - Multiprocessing can be applied easily
 
 
-## Disadvantages of FP
+## FP vs OOP
+### Disadvantages of FP
 - Not all functions can be pure
 - FP has a learning curve
 - FP can be inefficient
 
-## Advantages of OOP
+### Advantages of OOP
 - OOP is easier to understand
 - OOP is easier to maintain
 - OOP is easier to extend
@@ -49,7 +58,21 @@ it is much easier to write complex systems using OOP.
 - OOP is easier to reuse
 - OOP is easier to test
 
-## Disadvantages of OOP
+### Disadvantages of OOP
 - OOP is slower
 - OOP is more difficult to learn
 - OOP is more difficult to design
+
+# TO DO:
+# ======
+- The goal is to complete the exercises under folder `exercises`.
+  1. `fibonacci` folder contains script `fibonacci_v1.py` which calculates fibonacci 
+  of each number which is in list. The task is to create `fibonacci_v2.py` script witch would be more efficient.
+  The basic problem in `fibonacci_v1.py` is that we are calling fibonacci function multiple times, with the same argument. 
+  So, each time we are calculating the same value all over again.
+  The goal is to use dictionary as a cache to store already calculated values. 
+  Dictionary key would be the function argument. 
+  2. `reverse_string` folder contains script `reverse_string_v1.py` which reverses string using while loop.
+  The task is to create `reverse_string_v2.py` script which would do the same only using recursion instead of while loop.
+  3. `remove_duplicated_chars` folder contains script `remove_duplicated_chars_v1.py` which removes duplicates from string using for each.
+  The task is to create `remove_duplicated_chars_v2.py` script which would do the same only using recursion instead of for each.
